@@ -8,14 +8,11 @@ from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/7159302fb07e8b69feacf.png"
 pm_caption = "**Userbot di** @GucciRxnS **ONLINE ✅**\n\n"
-pm_caption += "**⚙ STATO SISTEMA**\n"
-pm_caption += "`TELETHON VERSION:` **6.0.9**\n🐍 `Python:` **3.7.4**\n"
-pm_caption += "`DATABASE STATUS:` **Functional**\n"
-pm_caption += "**Current Branch** : `master`\n"
-pm_caption += "**Friday OS** : `3.14`\n"
-pm_caption += "**Current Sat** : `StarkGangSat-2.25`\n"
-pm_caption += f"**My Boss** : {DEFAULTUSER} \n"
-pm_caption += "**Heroku Database** : `AWS - Working Properly`"
+pm_caption += "**🛠 STATO SISTEMA**\n"
+pm_caption += "**❕ Versione Telethon:** 6.0.9\n🐍 **Python:** 3.7.4\n"
+pm_caption += "**🗄 Stato database:** nessun errore\n"
+pm_caption += "**🔎 Github update** : `master`\n"
+pm_caption += f"**📲 Account principale** : {DEFAULTUSER} \n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
