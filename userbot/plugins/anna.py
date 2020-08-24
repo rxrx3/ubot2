@@ -22,17 +22,19 @@ async def _(event):
 
    # if input_str == "fuk":
 
-    await event.edit("fuk")
+    await event.edit("❤️ ANNA TE AMOOOOO ❤️")
 
     animation_chars = [
 
-            "TEST",
+            "👸🏼 MI REINAAAAA 👸🏼",
 
-            "TEST TEST TEST TEST TEST TEST",
+            "💞 TE QUIEROOOOO 💞",
 
-            "TEST TEST",
+            "❤️ ANNA TE AMOOOOO ❤️",
 
-            "TEST"
+            "👸🏼 MI REINAAAAA 👸",
+            
+            "💞 TE QUIEROOOOO 💞",
 
         ]
 
