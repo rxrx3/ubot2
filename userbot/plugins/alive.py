@@ -7,7 +7,7 @@ from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/157bae87162219b1a9b77.png"
-pm_caption = "**Userbot di** @GucciRxnS **ONLINE**\n\n"
+pm_caption = "**Userbot di** @GucciRxnS **ONLINE** ✅\n\n"
 pm_caption += "**SYSTEM STATUS**\n"
 pm_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
 pm_caption += "`DATABASE STATUS:` **Functional**\n"
