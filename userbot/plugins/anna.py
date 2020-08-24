@@ -32,7 +32,7 @@ async def _(event):
 
             "❤️ ANNA TE AMOOOOO ❤️",
 
-            "👸🏼 MI REINAAAAA 👸",
+            "👸🏼 MI REINAAAAA 👸🏼",
             
             "💞 TE QUIEROOOOO 💞",
 
