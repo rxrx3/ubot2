@@ -8,11 +8,11 @@ from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/7159302fb07e8b69feacf.png"
 pm_caption = "**Userbot di** @GucciRxnS **ONLINE ✅**\n\n"
-pm_caption += "**🛠 STATO SISTEMA**\n"
+pm_caption += "**🛠 STATO SISTEMA:**\n"
 pm_caption += "**❕ Versione Telethon:** 6.0.9\n🐍 **Python:** 3.7.4\n"
 pm_caption += "**🗄 Stato database:** nessun errore\n"
-pm_caption += "**🔎 Github update** : `master`\n"
-pm_caption += f"**📲 Account principale** : {DEFAULTUSER} \n"
+pm_caption += "**🔎 Github update:** master\n"
+pm_caption += f"**📲 Account principale**: @lordrxns"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def friday(alive):
